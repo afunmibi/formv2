@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation 2</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="formvad">
+        <form action="submit" onsubmit="myvaform()" method="get" name="vaform">
+            <fieldset class="head1">
+                <legend>Enquiry</legend>
+                <label>FirstName:</label>
+                <input type="text" name="firstname">
+                <br>
+                <label>MiddletName:</label>
+                <input type="text" name="middlename">
+                <br>
+                <label>LastName:</label>
+                <input type="text" name="lastname">
+                <br>
+                <label>Phone No:</label>
+                <select>
+                    <option>+234</option>
+                    <option>+233</option>
+                    <option>+235</option>
+                    <input type="phone" name="phone">
+                </select>
+                <br>
+                <label>Email:</label>
+                <input type="text" name="email">
+                <br>
+                <label>Gender:</label>
+                <ul>
+                <input type="radio" name="Gender" value="male" checked>Male
+                <input type="radio" name="Gender" value="female">Female
+            </ul>
+                <br>
+                <textarea rows="20" cols="40"></textarea>
+                <br>
+                <button id="bttn">Submit</button>
+                
+
+
+            </fieldset>
+        </form>
+    </div>
+    <br>
+<!-- form 2 -->
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="index.js">
+
+</script>
+
+
+
+</body>
+</html>
